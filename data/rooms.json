@@ -1,0 +1,102 @@
+[
+    {
+        "id": 1,
+        "title": "Dungeon",
+        "description": "You are in a dungeon. A goblin stares at you menacingly.",
+        "question": "The Goblin charges toward you, blade drawn. Do you:",
+        "choices": [
+            {
+                "text": "Attack the goblin",
+                "outcome": "You parry the goblin's strike, and cleave it in two, but not before it nicks you with a hidden blade.",
+                "hearts": -1,
+                "next": 2
+            },
+            {
+                "text": "Run away",
+                "outcome": "You sprint towards the nearest exit, outpacing the goblin easily.",
+                "hearts": 0,
+                "next": 2
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "title": "Corridor",
+        "description": "You pass through the exit and run down a corridor…",
+        "question": "At the end of the corridor, you find two doors and must pass through one of them. Do you:",
+        "choices": [
+            {
+                "text": "Go through the right hand door",
+                "outcome": "You fall down a 3 meter drop on the other side, slightly injuring your ankle. You climb out of the hole and into an open courtyard.",
+                "hearts": -1,
+                "next": 3
+            },
+            {
+                "text": "Go through the left hand door",
+                "outcome": "The door locks behind you and you are in an open courtyard.",
+                "hearts": 0,
+                "next": 3
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "title": "Courtyard Table",
+        "description": "You see a table with food and drink.",
+        "question": "You are tired, hungry and thirsty. Do you:",
+        "choices": [
+            {
+                "text": "Eat, drink and rest",
+                "outcome": "You recover from your injuries and you are ready to move to the next room.",
+                "hearts": 1,
+                "next": 4
+            },
+            {
+                "text": "Ignore the table of refreshments, fearing poison and move on to the next room",
+                "outcome": "Your injuries and fatigue cause you to fall into a bed of hemlock. You die. Horribly. Ouch!",
+                "hearts": -3,
+                "next": null
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "title": "Beer Cellar",
+        "description": "You are now in a beer cellar. You are tempted to try the merchandise.",
+        "question": "The barkeep offers you a beer. Do you:",
+        "choices": [
+            {
+                "text": "Accept the offer",
+                "outcome": "One beer is never enough and you get horribly drunk. In your haze, you stagger off.",
+                "hearts": -1,
+                "next": 5
+            },
+            {
+                "text": "Decline and ask for directions to the W.C.",
+                "outcome": "You reach the W.C. and have a wash.",
+                "hearts": 0,
+                "next": 5
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "title": "Library",
+        "description": "You reach a library. You see the librarian, who is an orangutan, hanging around the desk.",
+        "question": "The librarian says 'OOOK?' Do you:",
+        "choices": [
+            {
+                "text": "Return the book you borrowed last time you were here and apologise for being late.",
+                "outcome": "Your apology is accepted, so you live, but there is no excuse for your tardiness and you are fined 10 Splodges.",
+                "hearts": -1,
+                "next": null
+            },
+            {
+                "text": "Borrow the book eagerly recommended by the librarian, as this is your first visit and you wish to impress.",
+                "outcome": "You put the book in your bag and walk towards the exit.",
+                "hearts": 0,
+                "next": null
+            }
+        ]
+    }
+]
