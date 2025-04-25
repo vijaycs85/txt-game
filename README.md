@@ -1,7 +1,8 @@
 # 🎮 PHP Text Adventure Game
 
 [![CI](https://github.com/vijaycs85/txt-game/actions/workflows/ci.yml/badge.svg)](https://github.com/vijaycs85/txt-game/actions)
-[![codecov](https://codecov.io/gh/vijaycs85/txt-game/branch/main/graph/badge.svg)](https://codecov.io/gh/vijaycs85/txt-game)
+[![Coverage Status](https://coveralls.io/repos/github/vijaycs85/txt-game/badge.svg?branch=main)](https://coveralls.io/github/vijaycs85/txt-game?branch=main)
+
 
 A command-line text adventure game.
 
