@@ -25,6 +25,7 @@ rooms with at least one heart and you win!
 ## 🚀 Getting Started
 
 ```bash
-git clone https://github.com/vijaycs85/game-txt.git
+git clone git@github.com:vijaycs85/txt-game.git
 cd game-txt
 composer install
+./game game:start
