@@ -1,21 +1,10 @@
 <?xml version="1.0"?>
 <ruleset name="Standard">
   <description>Code style rules for the PHP Text Adventure Game.</description>
-
-  <!-- Set the coding standard -->
   <rule ref="PSR12" />
-
-  <!-- Directories to scan -->
   <file>src</file>
   <file>tests</file>
-
-  <!-- Exclude third-party or build folders -->
   <exclude-pattern>vendor/*</exclude-pattern>
   <exclude-pattern>*/.idea/*</exclude-pattern>
-
-  <!-- Show warnings as well as errors -->
-  <arg name="show-warnings" value="true"/>
-
-  <!-- Enable colors for output -->
   <arg name="colors"/>
 </ruleset>
